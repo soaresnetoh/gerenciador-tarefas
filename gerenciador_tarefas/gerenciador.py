@@ -30,9 +30,7 @@ def listar():
     return TAREFAS
 
 
-@app.post(
-    "/tarefas", response_model=Tarefa, status_code=status.HTTP_201_CREATED
-)
+@app.post("/tarefas", response_model=Tarefa, status_code=status.HTTP_201_CREATED)
 def criar(tarefa: TarefaEntrada):
     nova_tarefa = tarefa.dict()
     nova_tarefa.update({"id": uuid4()})
