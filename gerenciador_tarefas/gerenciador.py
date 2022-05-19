@@ -22,6 +22,7 @@ class Tarefa(TarefaEntrada):
     id: UUID
 
 
+
 TAREFAS = []
 
 
