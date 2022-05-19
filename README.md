@@ -13,3 +13,10 @@ git commit -am "acrescentado black ao codigo - formatador de codigo"
 python -m pip install flake8\n
 python -m flake8 --exclude=.venv\n
 git commit -am "acrescentado flake8 ao codigo - busca erros de formatação"
+
+
+Creating app... done, ⬢ mysterious-fjord-90492
+https://mysterious-fjord-90492.herokuapp.com/ | https://git.heroku.com/mysterious-fjord-90492.git
+
+git push heroku main
+
