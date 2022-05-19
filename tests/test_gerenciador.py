@@ -1,7 +1,7 @@
 from fastapi import status
 from fastapi.testclient import TestClient
 
-from gerencia´dor_tarefas.gerenciador import TAREFAS, app
+from gerenciador_tarefas.gerenciador import TAREFAS, app
 
 
 def test_quando_listar_tarefas_devo_ter_como_retorno_codigo_de_status_200():
