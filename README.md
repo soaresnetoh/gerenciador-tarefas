@@ -20,3 +20,8 @@ https://mysterious-fjord-90492.herokuapp.com/ | https://git.heroku.com/mysteriou
 
 git push heroku main
 
+============================
+19/05/2022 = 22:00 hs
+
+próximo passo: desafios
+
